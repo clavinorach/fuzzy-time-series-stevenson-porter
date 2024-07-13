@@ -1,0 +1,14 @@
+"0","library(zoo)"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"
+"0","data_asli <- read.csv(""avg_temp_sulteng.csv"", header = TRUE, sep = "","")"
+"0","data_asli$date <- as.Date(data_asli$date, format = ""%d-%m-%Y"")"
+"0","data_asli$tavg <- na.locf(data_asli$tavg)  # Mengisi NA dengan nilai sebelumnya"
+"0","n <- length(data_asli$tavg)"

@@ -1,0 +1,41 @@
+"0","# Set CRAN mirror"
+"0","options(repos = c(CRAN = ""https://cloud.r-project.org/""))"
+"0",""
+"0","# Install necessary package"
+"0","install.packages(""zoo"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/clavi/AppData/Local/R/win-library/4.4’
+(as ‘lib’ is unspecified)
+"
+"2","trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.4/zoo_1.8-12.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1028651 bytes (1004 KB)
+"
+"2","downloaded 1004 KB
+
+"
+"1","package ‘zoo’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\clavi\AppData\Local\Temp\RtmpIFCCaa\downloaded_packages"
+"1",""
+"1","
+"
+"0","# Load the package"
+"0","library(zoo)"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"

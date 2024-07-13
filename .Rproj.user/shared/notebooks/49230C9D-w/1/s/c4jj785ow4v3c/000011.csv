@@ -1,0 +1,4 @@
+"0",""
+"0","# Menambahkan sedikit margin ke interval terakhir"
+"0","intervals[n_intervals, 2] <- intervals[n_intervals, 2] + 0.01"
+"0",""

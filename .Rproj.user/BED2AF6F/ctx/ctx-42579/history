@@ -1,0 +1,42 @@
+unlink("w_cache", recursive = TRUE)
+# Set CRAN mirror
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+# Function to install packages if not already installed
+install_if_missing <- function(p) {
+if (!requireNamespace(p, quietly = TRUE)) {
+install.packages(p, dependencies = TRUE)
+}
+}
+# Install and load required packages
+install_if_missing("zoo")
+install_if_missing("ggplot2")
+install_if_missing("dplyr")
+install_if_missing("lubridate")
+library(zoo)
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+data_asli$date <- as.Date(data_asli$date, format = "%d-%m-%Y")
+data_asli <- read.csv("avg_temp_sulteng.csv", header = TRUE, sep = ",")
+install.packages("zoo") #cleaning data
+head(data_asli)
+data_asli <- read.csv("avg_temp_sulteng.csv", header = TRUE, sep = ",")
+install.packages("zoo") #cleaning data
+head(data_asli)
+data_asli <- read.csv("avg_temp_sulteng.csv", header = TRUE, sep = ",")
+install.packages("zoo") #cleaning data
+head(data_asli)
+data_asli$date <- as.Date(data_asli$date, format = "%d-%m-%Y")
+data_asli$tavg <- zoo::na.locf(data_asli$tavg)  # Mengisi NA dengan nilai sebelumnya
+n <- length(data_asli$tavg)
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+library(zoo)
+# Membaca data dari file CSV
+data_asli <- read.csv("avg_temp_sulteng.csv", header = TRUE, sep = ",")
+# Ensure the date column is of Date type
+datauji$date <- as.Date(datauji$date, format = "%d-%m-%Y")
+data_asli <- read.csv("avg_temp_sulteng.csv", header = TRUE, sep = ",")
+install.packages("zoo") #cleaning data
+head(data_asli)

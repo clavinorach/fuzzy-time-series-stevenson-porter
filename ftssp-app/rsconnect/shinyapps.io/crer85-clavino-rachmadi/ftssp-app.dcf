@@ -1,0 +1,10 @@
+name: ftssp-app
+title:
+username: crer85-clavino-rachmadi
+account: crer85-clavino-rachmadi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12313869
+bundleId:
+url: https://crer85-clavino-rachmadi.shinyapps.io/ftssp-app/
+version: 1

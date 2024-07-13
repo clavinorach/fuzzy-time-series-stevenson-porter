@@ -1,0 +1,5 @@
+"0","peringkat=rank(frek,ties.method = ""first"")"
+"0","fuzz = c(1:length(peringkat))"
+"0","sub_l = 1/peringkat"
+"0","peringkat1=data.frame(fuzz,peringkat,sub_l)"
+"0","peringkat1"

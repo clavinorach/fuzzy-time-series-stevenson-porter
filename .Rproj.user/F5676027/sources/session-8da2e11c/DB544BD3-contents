@@ -1,0 +1,4 @@
+data_asli <- read.csv("avg_temp_sulteng.csv", header = TRUE, sep = ",")
+install.packages("zoo") #cleaning data
+head(data_asli)
+
