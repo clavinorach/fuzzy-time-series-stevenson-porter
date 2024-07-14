@@ -37,3 +37,4 @@ Setelah menginstal semua paket yang diperlukan dan menjalankan aplikasi Shiny, A
 - Memilih dan menerapkan metode Fuzzy Time Series lainnya, seperti Markov Chain, untuk prediksi.
 
 **RPubs**: https://rpubs.com/clavinorach/1203735
+**Sumber Data:** https://dataonline.bmkg.go.id/
